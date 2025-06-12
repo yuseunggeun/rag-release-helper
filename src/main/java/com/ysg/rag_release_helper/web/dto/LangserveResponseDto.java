@@ -1,4 +1,4 @@
-package com.ysg.rag_release_helper.web.dto.base;
+package com.ysg.rag_release_helper.web.dto;
 
 import java.util.List;
 import java.util.Map;

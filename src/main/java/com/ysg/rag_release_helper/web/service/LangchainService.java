@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 import com.ysg.rag_release_helper.web.dto.LangchainRequestDto;
-import com.ysg.rag_release_helper.web.dto.base.LangserveResponseDto;
+import com.ysg.rag_release_helper.web.dto.LangserveResponseDto;
 import com.ysg.rag_release_helper.web.util.WebClientUtil;
 
 import lombok.RequiredArgsConstructor;

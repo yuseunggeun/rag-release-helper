@@ -4,8 +4,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.ysg.rag_release_helper.web.dto.LangchainRequestDto;
+import com.ysg.rag_release_helper.web.dto.LangserveResponseDto;
 import com.ysg.rag_release_helper.web.dto.base.DefaultRes;
-import com.ysg.rag_release_helper.web.dto.base.LangserveResponseDto;
 import com.ysg.rag_release_helper.web.service.LangchainService;
 
 import lombok.RequiredArgsConstructor;

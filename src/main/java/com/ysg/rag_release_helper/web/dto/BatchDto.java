@@ -4,46 +4,37 @@ import java.util.List;
 
 
 import lombok.AllArgsConstructor;
+import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
 public class BatchDto {
     
-    @Getter
-    @Setter
-    @AllArgsConstructor
+    @Data
     public static class Count{
         private int count;
     }
 
-    @Getter
-    @Setter
-    @AllArgsConstructor
+    @Data
     public static class Message {
         private String message;
     }
 
 
-    @Getter
-    @Setter
-    @AllArgsConstructor
+    @Data
     public static class Metadata {
         private String number;
         private String type;
     }
 
-    @Getter
-    @Setter
-    @AllArgsConstructor
+    @Data
     public static class DataDto {
         private String id;
         private String document;
         private Metadata metadata;
     }
 
-    @Getter
-    @Setter
-    @AllArgsConstructor
+    @Data
     public static class DataListDto {
         private List<DataDto> data;
     }
