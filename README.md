@@ -1,4 +1,4 @@
-# rag-release-helper-api
+# rag-release-helper
 
 **2025-1 졸업프로젝트**  
 RAG 기반 오픈소스 질의응답 시스템의 API 서버입니다.
