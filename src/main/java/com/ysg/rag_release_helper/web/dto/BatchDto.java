@@ -8,6 +8,7 @@ import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
+// Batch 서버의 응답을 처리하기 위한 DTO 클래스
 public class BatchDto {
     
     @Data

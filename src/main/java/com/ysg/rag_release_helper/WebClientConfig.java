@@ -11,6 +11,7 @@ import org.springframework.web.util.DefaultUriBuilderFactory;
 import reactor.netty.http.client.HttpClient;
 import reactor.netty.resources.ConnectionProvider;
 
+// 통신을 위한 WebClient 설정 클래스
 @Configuration
 public class WebClientConfig {
     

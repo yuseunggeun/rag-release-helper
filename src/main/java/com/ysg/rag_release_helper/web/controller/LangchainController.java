@@ -18,12 +18,13 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("/api/langchain") // llm 서버와 통신
+@RequestMapping("/api/langchain") // llm 서버와 통신하는 컨트롤러
 public class LangchainController {
 
     private final LangchainService langchainService;
 
 
+    // LLM 질의응답 요청
     @PostMapping(path = "/request", consumes = "application/json")
     public ResponseEntity<?> requestLLM(@RequestBody LangchainRequestDto.LangchainRequest langchainReq) {
         LangserveResponseDto.Response response = langchainService.requestLLM(langchainReq);

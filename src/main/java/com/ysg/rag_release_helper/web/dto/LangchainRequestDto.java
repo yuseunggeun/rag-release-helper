@@ -6,6 +6,7 @@ import lombok.Data;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
+// LLM 서버로 질의응답을 요청하기 위한 DTO 클래스
 public class LangchainRequestDto {
 
     @Data
